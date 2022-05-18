@@ -85,13 +85,13 @@ const Login = ({ signup }) => {
       <form>
         <input
           type="email"
-          placeholder="johnwick@gmail.com"
+          placeholder="hello@example.com"
           value={email.value}
           onChange={email.onChange}
         />
         <input
           type="password"
-          placeholder="mysuperpassword"
+          placeholder="my_secure_password"
           value={password.value}
           onChange={password.onChange}
         />
